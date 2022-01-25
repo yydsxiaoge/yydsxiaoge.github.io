@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>小白雄安</title>
+<style>
+body {
+	text-align: center; /* 文字居中 */
+}
+
+ul {
+	list-style-type: none; /* ul前面的点  */
+}
+
+* {
+	margin: 0px 0px; /* 到边框的距离 */
+}
+.footer {
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+            width: 100%;
+            height: 50px;
+            background-color: #eee;
+            z-index: 9999;
+        }
+
+.menu {
+	background: linear-gradient(#231d2c, #442f41); /* 导航条背景的颜色  */
+}
+
+.logo {
+	width: 300px;
+	float:left;
+	padding-top:10px;
+}
+
+
+.nav {
+	margin: 0 auto; /* 导航栏文字的位置  */
+	width: 1000px; /* 和文字宽度有关，不能小于文字宽度的总和  */
+	height: 80px; /* 导航栏的宽度  */
+}
+
+.nav a {
+	float: left; /* 导航栏的位置配置 */
+	width: 125px; /* 选中的文字块的长度  */
+	line-height: 75px; /* 选中的文字块的宽度  */
+	text-decoration: none; /* 去掉连接下划线  */
+	font-size: 20px; /* 字体大小 */
+	color: #FFFFFF; /* 字体颜色 */
+	font-weight:bold;/*加粗*/
+}
+
+.nav li a:hover {
+	background-color: linear-gradient(purple, black); /* 选中的文字块的颜色 */
+	text-decoration: none; /* 选中时去掉连接下划线 */
+}
+
+.nav li a:link {
+	text-decoration: none; /* 连接被点之后没有下划线  */
+}
+</style>
+</head>
+<body>
+	<div class="logo">
+		<img alt="logo" src="photo/game of throens-logo.png" width="100" height="60">
+	</div>
+  <div class="menu">  <!-- class选择器 -->
+    <div class="nav">
+        <ul>    <!-- ul标签 -->         
+            <li><a href="/project/home.html" target="main">HOME</a></li>  <!-- li标签 -->
+            <li><a href="/project/market.html" target="main">MARKET</a></li>
+            <li><a href="/project/game.html" target="main">GAME</a></li>
+            <li><a href="/project/box.html" target="main">BOX</a></li>
+            <li><a href="/project/ido.html" target="main">IDO</a></li>
+           <li><a href="https://docs.thecryptoyou.io/">EXPLAIN</a></li>
+        </ul>
+    </div>
+  </div>
+  <img alt="" src="photo/5IDO界面.png " width="100%" height="100%">
+</body>
+</html>
